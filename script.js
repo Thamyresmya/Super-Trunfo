@@ -94,11 +94,11 @@ function sortearCarta() {
   document.getElementById("btnJogar").disabled = false;
 
   exibirCartaJogador();
+  
 }
 
 function obtemAtributoSelecionado() {
   var radioAtributos = document.getElementsByName("atributo");
-
   for (var i = 0; i < radioAtributos.length; i++) {
     if (radioAtributos[i].checked) {
       return radioAtributos[i].value;
@@ -107,7 +107,7 @@ function obtemAtributoSelecionado() {
 }
 
 function jogar() {
-  var atributoSelecionado = obtemAtributoSelecionado();
+  var atributoSelecionado = obtemAtributoSelecionado();  
   var divResultado = document.getElementById("resultado");
 
   var valorCartaJogador = cartaJogador.atributos[atributoSelecionado];
@@ -172,4 +172,5 @@ function exibirCartaMaquina() {
   var nome = `<p class="carta-subtitle">${cartaMaquina.nome}</p>`;
   divCartaMaquina.innerHTML = moldura + nome + tagHTML + opcoesTexto + "</div>";
 }
+
 

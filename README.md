@@ -17,3 +17,12 @@ Rápida descrição do objetivo de fazer esse projeto
 
 Projeto realizado pela imersão da alura, jogo super trunfo.
 Você joga contra o computador.
+
+Passo a passo:
+
+- click em "Sortear carta"
+- Selecione um atributo entre: Ataque - Desefa - Magia
+- click em "Jogar"
+
+As cartas são aleatorias.
+
