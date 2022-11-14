@@ -6,8 +6,8 @@ Rápida descrição do objetivo de fazer esse projeto
 | -------------  | --- |
 | :sparkles: Nome        | **Projeto Super Trunfo**
 | :label: Tecnologias | javascript, html, css
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
+| :rocket: URL         | https://thamyresmya.github.io/Super-Trunfo/
+| :fire: Desafio     | 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](Capa.png)
@@ -15,4 +15,5 @@ Rápida descrição do objetivo de fazer esse projeto
 
 ## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+Projeto realizado pela imersão da alura, jogo super trunfo.
+Você joga contra o computador.
