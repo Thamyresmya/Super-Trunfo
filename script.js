@@ -10,8 +10,8 @@ var carta1 = {
 };
 
 var carta2 = {
-  nome: "Darth Vader",
-  imagem: "https://images-na.ssl-images-amazon.com/images/I/51H--lU9YGL.jpg",
+  nome: "scyther",
+  imagem: "https://bleedingcool.com/wp-content/uploads/2020/11/EitJnbZXkAAvp2T-1-copy-42-2-1200x900.jpg",
   atributos: {
     ataque: 9,
     defesa: 8,
@@ -20,9 +20,9 @@ var carta2 = {
 };
 
 var carta3 = {
-  nome: "Shiryu de dragão",
+  nome: "eevee",
   imagem:
-    "http://pm1.narvii.com/6399/96fdb9d4fe6a9e72b9bc60ad418e3c43795e53b4_00.jpg",
+    "https://i0.wp.com/www.alphr.com/wp-content/uploads/2016/08/pokemon_go_hack_eevee_vaporeon_jolteon_flareon.jpg?resize=1142%2C1142&ssl=1",
   atributos: {
     ataque: 5,
     defesa: 9,
@@ -30,17 +30,61 @@ var carta3 = {
   }
 };
 
-var cartas = [carta1, carta2, carta3];
+var carta4 = {
+  nome: "Pikachu",
+  imagem:
+    "https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg",
+  atributos: {
+    ataque: 9,
+    defesa: 9,
+    magia: 10
+  }
+};
+
+var carta5 = {
+  nome: "Charmander",
+  imagem:
+    "https://www.pokemonunited.nl/img/dex/home/charmander.png",
+  atributos: {
+    ataque: 5,
+    defesa: 9,
+    magia: 4
+  }
+};
+
+var carta6 = {
+  nome: "Squertle",
+  imagem:
+    "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+  atributos: {
+    ataque: 9,
+    defesa: 9,
+    magia: 10
+  }
+};
+
+var carta7 = {
+  nome: "Cubone",
+  imagem:
+    "https://p.turbosquid.com/ts-thumb/nv/W9TrpD/27JY8pfU/cubone_render_0002/jpg/1478942473/600x600/fit_q87/2040165641d67c863f5c08f4b74400f40ab86d04/cubone_render_0002.jpg",
+  atributos: {
+    ataque: 9,
+    defesa: 9,
+    magia: 10
+  }
+}
+
+var cartas = [carta1, carta2, carta3, carta4, carta5, carta6, carta7];
 var cartaMaquina;
 var cartaJogador;
 
 function sortearCarta() {
-  var numeroCartaMaquina = parseInt(Math.random() * 3);
+  var numeroCartaMaquina = parseInt(Math.random() * 7);
   cartaMaquina = cartas[numeroCartaMaquina];
 
-  var numeroCartaJogador = parseInt(Math.random() * 3);
+  var numeroCartaJogador = parseInt(Math.random() * 7);
   while (numeroCartaMaquina == numeroCartaJogador) {
-    numeroCartaJogador = parseInt(Math.random() * 3);
+    numeroCartaJogador = parseInt(Math.random() * 7);
   }
 
   cartaJogador = cartas[numeroCartaJogador];
