@@ -26,7 +26,7 @@ var carta3 = {
   atributos: {
     ataque: 5,
     defesa: 9,
-    magia: 10
+    magia: 6
   }
 };
 
@@ -35,8 +35,8 @@ var carta4 = {
   imagem:
     "https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg",
   atributos: {
-    ataque: 9,
-    defesa: 9,
+    ataque: 10,
+    defesa: 10,
     magia: 10
   }
 };
@@ -47,7 +47,7 @@ var carta5 = {
     "https://www.pokemonunited.nl/img/dex/home/charmander.png",
   atributos: {
     ataque: 5,
-    defesa: 9,
+    defesa: 7,
     magia: 4
   }
 };
@@ -57,9 +57,9 @@ var carta6 = {
   imagem:
     "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
   atributos: {
-    ataque: 9,
+    ataque: 5,
     defesa: 9,
-    magia: 10
+    magia: 3
   }
 };
 
@@ -68,9 +68,9 @@ var carta7 = {
   imagem:
     "https://p.turbosquid.com/ts-thumb/nv/W9TrpD/27JY8pfU/cubone_render_0002/jpg/1478942473/600x600/fit_q87/2040165641d67c863f5c08f4b74400f40ab86d04/cubone_render_0002.jpg",
   atributos: {
-    ataque: 9,
-    defesa: 9,
-    magia: 10
+    ataque: 6,
+    defesa: 5,
+    magia: 1
   }
 }
 
@@ -173,8 +173,3 @@ function exibirCartaMaquina() {
   divCartaMaquina.innerHTML = moldura + nome + tagHTML + opcoesTexto + "</div>";
 }
 
-// Desafios desta aula!
-// Criar de fato um baralho, com várias outras cartas
-// Desenvolver um sistema em que a cada carta que um jogador ganhe, ele fique com a carta do oponente e vice versa
-// Transformar as funções exibirCartaMaquina() e exibirCartaJogador() em apenas uma, chamada exibirCarta(), utilizando para isso a passagem de parâmetros
-// Utilizar seus personagens e jogos preferidos nesse projeto
