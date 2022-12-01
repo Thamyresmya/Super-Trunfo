@@ -1,13 +1,13 @@
 # Projeto Super Trunfo
 
-Rápida descrição do objetivo de fazer esse projeto
+Criar um jogo de super trunfo com figuras dos personagens favoritos.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Projeto Super Trunfo**
 | :label: Tecnologias | javascript, html, css
 | :rocket: URL         | https://thamyresmya.github.io/Super-Trunfo/
-| :fire: Desafio     | 
+| :fire: Desafio     | Criar um jogo de super trunfo
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](Capa.png)
